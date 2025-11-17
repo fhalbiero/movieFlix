@@ -10,13 +10,7 @@ export default function MovieCard({
     release_date,
     popularity, 
 }: Movie) {
-    console.log('MovieCard props:', { 
-        id, 
-        poster_path,
-        title,
-        vote_average,
-        release_date
-    })
+
   return (
     <Link href={`/movie/${id}`} asChild>
         <TouchableOpacity className='w-[30%]'>
