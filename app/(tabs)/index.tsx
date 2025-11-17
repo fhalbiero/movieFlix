@@ -42,8 +42,9 @@ export default function Index() {
         contentContainerStyle={{ paddingBottom: 10, minHeight: '100%' }}
       >
         <Image 
-          source={icons.logo}
-          className="w-12 h-10 mt-20 mb-5 mx-auto"
+          source={icons.play}
+          className="w-12 h-12 mt-20 mb-5 mx-auto"
+          resizeMode="contain"
         />
 
         {moviesLoading || trendingLoading ? (

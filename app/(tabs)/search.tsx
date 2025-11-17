@@ -64,10 +64,12 @@ export default function Search() {
         ListHeaderComponent={
           <>
             <View className='w-full flex-row justify-center mt-20 items-center'>
-              <Image
-                source={icons.logo}
-                className='w-12 h-10'
+              <Image 
+                source={icons.play}
+                className="w-12 h-12 mt-20 mb-5 mx-auto"
+                resizeMode="contain"
               />
+
             </View>
             <View className='mt-10 mb-5 px-5'>
               <SearchBar 
