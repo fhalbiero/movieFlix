@@ -33,7 +33,7 @@ export default function MovieDetails() {
         <View className='bg-primary flex-1'>
             <ScrollView 
                 contentContainerStyle={{ 
-                    paddingBottom: 80 
+                    paddingBottom: 110 
                 }}
             >
                 <Image
@@ -63,7 +63,7 @@ export default function MovieDetails() {
                 </View>
             </ScrollView>
             <TouchableOpacity
-                className='absolute bottom-5 right-0 left-0 rounded-lg bg-accent flex-row items-center justify-center mx-5 py-3 z-50'
+                className='absolute bottom-10 right-0 left-0 rounded-lg bg-accent flex-row items-center justify-center mx-5 py-3 z-50'
                 onPress={() => router.back()}
             >
                 <Image

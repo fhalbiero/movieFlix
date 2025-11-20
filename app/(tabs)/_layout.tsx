@@ -8,7 +8,7 @@ function TabIcon({ focused, icon, title }: { focused?: boolean; icon?: any; titl
     return (
       <ImageBackground 
         source={images.highlight} 
-        className='flex flex-row w-full flex-1 gap-2 min-w-[100px] min-h-16 mt-4 justify-center items-center rounded-full overflow-hidden'
+        className='flex flex-row w-full flex-1 gap-2 min-w-[100px] min-h-[52px] mt-6 justify-center items-center rounded-full overflow-hidden'
       >
         <Image 
           source={icon} 
@@ -38,10 +38,10 @@ export default function _Layout() {
       screenOptions={{ 
         tabBarShowLabel: false, 
         tabBarStyle: { 
-          backgroundColor: '#0F0D23', 
-          borderRadius: 50,
+          backgroundColor: '#0F0D23',
+          borderRadius: 30,
           marginHorizontal: 20,
-          marginBottom: 36,
+          marginBottom: 42,
           height: 52,
           overflow: 'hidden',
           position: 'absolute',

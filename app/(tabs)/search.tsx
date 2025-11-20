@@ -100,7 +100,7 @@ export default function Search() {
         }
         ListEmptyComponent={
           !loading && !error ? (
-            <View className='mt-20 px-5'>
+            <View className='mt-24 px-5'>
               <Text className='text-white text-center'>
                 {searchQuery.trim() ? 'No movies found.' : 'Search for movies...'}
               </Text>
