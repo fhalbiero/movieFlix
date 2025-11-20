@@ -29,7 +29,7 @@ export default function Search() {
       } else {
         reset();
       }
-    }, 700); // Debounce for 700ms
+    }, 600); // Debounce for 600ms
 
     return () => clearTimeout(timeoutId);
   }, [searchQuery]);
